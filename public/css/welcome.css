@@ -1,0 +1,265 @@
+/*NavBar*/
+
+html,header{
+
+    /*background:url('http://www.wallpaperup.com/uploads/wallpapers/2012/10/21/20181/cad2441dd3252cf53f12154412286ba0.jpg');*/
+    padding:10px;
+}
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+/*Curousel*/
+/*.red*/
+/*{*/
+    /*color: white;*/
+    /*background-color: red;*/
+/*}*/
+/*.green*/
+/*{*/
+    /*color: white;*/
+    /*background-color: green;*/
+/*}*/
+/*.blue*/
+/*{*/
+    /*color: white;*/
+    /*background-color: blue;*/
+/*}*/
+
+/*footer*/
+
+/*FOOTER START///////////////////*/
+.footer {
+    padding: 20px 0 20px 0;
+    background-color: #090c14;
+    color: #878c94;
+}
+.footer .title{
+    text-align: left;
+    color:#fff;
+    font-size:25px;
+}
+.footer .social-icon{
+    padding:0px;
+    margin:0px;
+}
+.footer .social-icon a{
+    display:inline-block;
+    color:#fff;
+    font-size:25px;
+    padding:5px;
+}
+.footer .acount-icon a{
+    display:block;
+    color:#fff;
+    font-size:18px;
+    padding:5px;
+    text-decoration:none;
+}
+.footer .acount-icon .fa{
+    margin-right:25px;
+}
+.footer .category a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 1px;
+    border-radius:4px;
+    margin-top: 6px;
+    background-color: black;
+    border: solid 1px #fff;
+}
+.footer .payment{
+    margin:0px;
+    padding:0px;
+    list-style-type:none
+}
+.footer .payment li{
+    list-style-type:none
+}
+.footer .payment li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    float: left;
+    font-size: 25px;
+    padding: 10px 10px;
+}
+
+/*popup Login*/
+.nav-tabs {
+    margin-bottom: 15px;
+}
+.sign-with {
+    padding: 20px;
+}
+div#OR {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #C2C2C2;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+    float: right;
+    position: absolute;
+    right: -16px;
+    top: 40%;
+    z-index: 1;
+    background: #DFDFDF;
+}
+
+h1 {
+    font-size: 30px;
+    color: #613b1e;
+    margin: 20px auto 20px auto;
+    display: block;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    color: #343434;
+
+}
+
+.container {
+    width: 90%;
+    overflow: hidden;
+    min-width: 700px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.knobContainer {
+    text-align: center;
+    margin: 10px;
+}
+
+.knobContainer canvas {
+    cursor: pointer;
+}
+
+.rightPanel {
+    float: right;
+    width: 223px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+/* Specific mapael css class are below
+ * 'mapael' class is added by plugin
+*/
+
+.mapael .mapTooltip {
+    position: absolute;
+    background-color: #fff;
+    moz-opacity: 0.80;
+    opacity: 0.80;
+    filter: alpha(opacity=80);
+    border-radius: 4px;
+    padding: 10px;
+    z-index: 1000;
+    max-width: 200px;
+    display: none;
+    color: #232323;
+}
+
+.mapael .map {
+    margin-right: 228px;
+    overflow: hidden;
+    position: relative;
+    background-color: #232323;
+    border-radius: 5px;
+}
+
+/* For all zoom buttons */
+.mapael .zoomButton {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #000;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    font-weight: bold;
+    left: 10px;
+
+    -webkit-user-select: none;
+    -khtml-user-select : none;
+    -moz-user-select: none;
+    -o-user-select : none;
+    user-select: none;
+}
+
+/* Reset Zoom button first */
+.mapael .zoomReset {
+    top: 10px;
+}
+
+/* Then Zoom In button */
+.mapael .zoomIn {
+    top: 30px;
+}
+
+/* Then Zoom Out button */
+.mapael .zoomOut {
+    top: 50px;
+}
